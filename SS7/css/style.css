@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Style chung cho thẻ input */
+  
+  .input-wrapper input {
+    border: 1px solid #dbdbdb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .input-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  
+  .btn {
+    padding: 8px 20px;
+    background-color: #037bfe;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .header {
+    height: 64px;
+    background-color: #077bf7;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+a:hover {
+  color: red;
+}

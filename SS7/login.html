@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <!-- Bên phải -->
+      <div class="aside-right">
+        <div class="header">
+          <h3>MindX Chat</h3>
+        </div>
+
+        <form id="login-form">
+          <!-- Hàng 2 -->
+          <div class="input-wrapper">
+            <input type="email" name="email" placeholder="Email..." />
+            <div class="error" id="email-error"></div>
+          </div>
+
+          <!-- Hàng 3 -->
+          <div class="input-wrapper">
+            <input type="password" name="password" placeholder="Password..." />
+            <div class="error" id="password-error"></div>
+          </div>
+
+          <div class="form-action">
+            <span
+              >Don't have an account?
+              <a href="./register.html">Register</a> here</span
+            >
+            <br /><br />
+            <button class="btn" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Bên trái -->
+      <div class="aside-left"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
